@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.video {
+    padding: 80px 0;
+}
+
+.video__small-box {
+    float: left;
+    padding: 20px;
+    border: 5px solid transparent;
+    cursor: pointer;
+}
+
+.video__small-box--active {
+    border: 5px solid yellowgreen;
+}
+
+.video__small-box > * {
+    float: left;
+}
+
+.right-side {
+    margin-left: 20px;
+    max-width: 250px;
+}
+
+.video__small-title {
+    margin-bottom: 20px;
+}

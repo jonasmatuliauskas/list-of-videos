@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube videos</title>
+</head>
+<body>
+    <section class="video clearfix" id="main-video">
+        <div class="video__main" id="video-player">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6rxWc-TNIJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video__all-video" id="video-list-container">
+            <h3 class="heading-3">All video</h3>
+            <div class="video__small-box video__small-box--active clearfix" data-video="https://www.youtube.com/watch?v=6rxWc-TNIJI">
+                <div class="left-side">
+                    <img src="img/1-video.jpg" alt="1 small image">
+                </div>
+                <div class="right-side clearfix">
+                    <p class="video__small-title">Don't Just Learn To Code, Learn To Create | Justin Richards | TEDxYouth@ColumbiaSC</p>
+                    <p class="video__small-views">16 mln. views</p>
+                </div>
+            </div>
+            <div class="video__small-box clearfix" data-video="https://www.youtube.com/watch?v=OwuEwhX1M_M">
+                <div class="left-side">
+                    <img src="img/2-video.jpg" alt="2 small image">
+                </div>
+                <div class="right-side clearfix">
+                    <p class="video__small-title">How to build a Billion Dollar app? | George Berkowski | TEDxCityUniversityLondon</p>
+                    <p class="video__small-views">900k views</p>
+                </div>
+            </div>
+            <div class="video__small-box clearfix" data-video="https://www.youtube.com/watch?v=Mtjatz9r-Vc">
+                <div class="left-side">
+                    <img src="img/3-video.jpg" alt="3 small image">
+                </div>
+                <div class="right-side clearfix">
+                    <p class="video__small-title">The art of innovation | Guy Kawasaki | TEDxBerkeley</p>
+                    <p class="video__small-views">1,6 mln. views</p>
+                </div>
+            </div>
+            <div class="video__small-box clearfix" data-video="https://www.youtube.com/watch?v=TQMbvJNRpLE">
+                <div class="left-side">
+                    <img src="img/4-video.jpg" alt="4 small image">
+                </div>
+                <div class="right-side clearfix">
+                    <p class="video__small-title">How to Achieve Your Most Ambitious Goals | Stephen Duneier | TEDxTucson</p>
+                    <p class="video__small-views">5 mln. views</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
