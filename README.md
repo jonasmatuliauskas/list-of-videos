@@ -1,2 +1,5 @@
-# list-of-videos
-Created a simple list of Youtube videos using just Javascript.
+# How to install and run project:
+    $ git clone <project>
+    $ cd path/to/<project>
+    $ npm install 
+    $ npm start
